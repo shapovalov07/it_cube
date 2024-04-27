@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Праздник в каждый дом</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+        <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="logo.png" alt="Праздник в каждый дом"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index2.html">Локации</a></li>
+                    <li><a href="index3.html">Зоны</a></li>
+                    <li><a href="index4.html">Бронирование</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container" >
+                <h1>Подарим волшебство для Ваших детей!</h1>
+                <p>Компания «Праздник в каждый дом» - это организация незабываемых детских праздников!</p>
+                <button class="btn" onclick="location.href='index4.html'">Забронировать праздник</button>
+
+            </div>
+        </section>
+
+        <section class="steps">
+            <div class="container">
+                <h2>Как забронировать праздник?</h2>
+                <div class="steps-list">
+                    <div class="step">
+                        <img src="new-year-background-with-alarm.jpg" alt="Выберите дату">
+                        <h3>1. Выберите дату</h3>
+                        <p>Выберите удобную для вас дату и время праздника.</p>
+                    </div>
+                    <div class="step">
+                        <img src="1.jpg" alt="Выберите количество участников">
+                        <h3>2. Выберите количество участников</h3>
+                        <p>Укажите количество детей и взрослых, которые будут присутствовать на празднике.</p>
+                    </div>
+                    <div class="step">
+                        <img src="2 — копия.jpg" alt="Выберите локацию">
+                        <h3>3. Выберите локацию</h3>
+                        <p>Выберите из списка доступных локаций ту, которая вам больше всего нравится.</p>
+                    </div>
+                    <div class="step">
+                        <img src="red-purple-balloons-arrangement.jpg" alt="Выберите дополнительные услуги">
+                        <h3>4. Выберите дополнительные услуги</h3>
+                        <p>Добавьте к своему празднику дополнительные услуги: питание, аниматоров, ведущего и т.д.</p>
+                    </div>
+                    <div class="step">
+                        <img src="promotion3.jpg" alt="Оформите заказ">
+                        <h3>5. Оформите заказ</h3>
+                        <p>Заполните форму бронирования и подтвердите свой заказ.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <h2>О компании</h2>
+                <div class="about-content">
+                    
+                    <div class="about-item">
+                        <h3>Цель</h3>
+                        <p>Наша цель - сделать каждый детский праздник незабываемым и ярким событием!</p>
+                    </div>
+                    <div class="about-item">
+                        <h3>Девиз</h3>
+                        <p>«Праздник в каждый дом» - Подарим волшебство для Ваших детей!</p>
+                    </div>
+                    <br>
+                    <div class="about-item">
+                        <h3>Отзывы</h3>
+                        <div class="reviews">
+                            <div class="review">
+                                <blockquote>
+                                    «Спасибо компании «Праздник в каждый дом» за организацию дня рождения моего сына! Все было 
+                                    просто на высшем уровне! Дети были в восторге!»
+                                </blockquote>
+                                <!-- <p>- Анна Иванова</p> -->
+                            </div>
+                            <!-- <div class="review">
+                                <blockquote>
+                                    «Рекомендую всем! Заказывали аниматора на детский праздник. Дети были в полном 
+                                    восторге! Аниматор просто супер! Спасибо большое!»
+                                </blockquote> -->
+                                <p>- Сергей Петров</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="search">
+            <div class="container">
+                <h2>Найти праздник</h2>
+                <form action="#" method="post">
+                    <div class="search-field">
+                        <label for="region">Регион:</label>
+                        <select name="region" id="region">
+                            <option value="">Выберите регион</option>
+                            <option value="moscow">Москва</option>
+                            <option value="spb">Санкт-Петербург</option>
+                            <option value="other">Другие города</option>
+                        </select>
+                    </div>
+                    <div class="search-field">
+                        <label for="date">Дата мероприятия:</label>
+                        <input type="date" name="date" id="date" required>
+                    </div>
+                    <div class="search-field">
+                        <label for="guests">Количество участников:</label>
+                        <div class="guest-count">
+                            <input type="number" name="adults" id="adults" min="1" placeholder="Взрослые">
+                            <input type="number" name="children" id="children" min="1" max="50" placeholder="Дети">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn">Найти</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="actions">
+            <div class="container">
+                <h2>Горячие акции!</h2>
+                <div class="slider">
+                    <div class="slide">
+                        <img src="pretty-woman-looking-clock-white.jpg" alt="Акция 1">
+                        <h3>Праздник под ключ со скидкой 15%!</h3>
+                        <p>Закажите праздник под ключ и получите скидку 15%!</p>
+                        <a href="#" class="btn">Подробнее</a>
+                    </div>
+                    <div class="slide">
+                        <img src="front-view-young-male-red-shirt-inside-present-box.jpg" alt="Акция 2">
+                        <h3>Аниматор в подарок!</h3>
+                        <p>Забронируйте праздник на сумму от 10 000 рублей и получите аниматора в подарок!</p>
+                        <a href="#" class="btn">Подробнее</a>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <section class="subscribe">
+            <div class="container">
+                <h2>Подпишитесь на закрытые акции</h2>
+                <p>Будьте в курсе всех самых выгодных предложений!</p>
+                <form action="#" method="post">
+                    <div class="subscribe-field">
+                        <input type="email" name="email" id="email" placeholder="Введите ваш Email" required>
+                        <button type="submit" class="btn">Подписаться</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+<header>
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="logo.png" alt="Праздник в каждый дом"></a>
+
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Локации</a></li>
+                    <li><a href="#">Зоны</a></li>
+                    <li><a href="#">Бронирование</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+</body>
+</html>
